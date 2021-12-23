@@ -1,0 +1,31 @@
+.contain {
+  width: 30%;
+  height: 50%;
+  position: fixed;
+  top: 30%;
+  left: 35%;
+  background-color: #8a97ac;
+  form {
+    display: flex;
+    flex-direction: column;
+    input {
+      border: none;
+      height: 30px;
+      border-bottom: 1px black solid;
+      background-color: #8a97ac;
+      font-size: 20px;
+    }
+    button {
+      background-color: black;
+      color: white;
+      height: 32px;
+      width: 100px;
+      margin-top: 10px;
+    }
+  }
+}
+.result {
+  p {
+    font-size: 30px;
+  }
+}
